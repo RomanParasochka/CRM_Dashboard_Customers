@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CRM_Dashboard_Customers</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <div class="conteiner">
+    <div class="main">
+      <div class="main__greeting">Hello Evano 👋🏼,</div>
+      <div class="main__table">
+       <img src="./img/search.png" alt="">
+        <div class=" table__header">
+          <div class="text">
+            <h3>All Customers</h3>
+            <p>Active Members</p>
+          </div>
+          <input type="Search" value=" Search">
+        </div>
+          
+          
+        <div class="table">
+            
+          <table class="nav" >
+            <tr>
+              <td class="nav__menu">Customer Name</td>
+              <td class="nav__menu">Company</td>
+              <td class="nav__menu">Phone Number</td>
+              <td class="nav__menu">Email</td>
+              <td class="nav__menu">Countr</td>
+              <td class="nav__menu">Status</td>
+            </tr>
+          
+            <tr>
+              <td>Jane Cooper</td>
+              <td>Microsoft</td>
+              <td><a href="tel: +(225) 555-0118">(225) 555-0118</a></td>
+              <td><a href="mailto:">jane@microsoft.com</a></td>
+              <td>United States</td>
+              <td><button class="active">Active</button></td>
+            </tr>
+          
+             <tr>
+              <td>Floyd Miles</td>
+              <td>Yahoo</td>
+              <td><a href="tel: +(205) 555-0100">(205) 555-0100</a></td>
+              <td><a href="mailto:">floyd@yahoo.com</a></td>
+              <td>Kiribati</td>
+              <td><button class="inactive">Inactive</button></td>
+            </tr>
+          
+            <tr>
+              <td>Ronald Richards</td>
+              <td>Adobe</td>
+              <td><a href="tel: +(302) 555-0107">(302) 555-0107</a></td>
+              <td><a href="mailto:">ronald@adobe.com</a>:</td>
+              <td>Israel</td>
+              <td><button class="inactive">Inactive</button></td>
+            </tr>
+          
+             <tr>
+              <td>Marvin McKinney</td>
+              <td>Tesla</td>
+              <td><a href="tel: +(252) 555-0126">(252) 555-0126</a></td>
+              <td><a href="mailto:">marvin@tesla.com</a></td>
+              <td>Iran</td>
+              <td><button class="active">Active</button></td>
+            </tr>
+          
+             <tr>
+              <td>Jerome Bell</td>
+              <td>Google</td>
+              <td><a href="tel: +(629) 555-0129">(629) 555-0129</a></td>
+              <td><a href="mailto:">jerome@google.com</a></td>
+              <td>Réunion</td>
+              <td><button class="active">Active</button></td>
+            </tr>
+          
+            <tr>
+              <td>Kathryn Murphy</td>
+              <td>Microsoft</td>
+              <td><a href="tel:">(406) 555-0120</a></td>
+              <td><a href="mailto:">kathryn@microsoft.com</a></td>
+              <td>Curaçao</td>
+              <td><button class="active">Active</button></td>
+            </tr>
+          
+              <tr>
+                  <td>Jacob Jones</td>
+                  <td>Yahoo</td>
+                  <td><a href="tel: +(208) 555-0112">(208) 555-0112</a></td>
+                  <td><a href="mailto:">jacob@yahoo.com</a></td>
+                  <td>Brazil</td>
+                  <td><button class="active">Active</button></td>
+                </tr>
+                  
+                  <tr>
+                    <td>Kristin Watson</td>
+                    <td>Facebook</td>
+                    <td><a href="tel:+ (704) 555-0127">(704) 555-0127</a></td>
+                    <td><a href="mailto:">kristin@facebook.com</a></td>
+                    <td>Åland Islands</td>
+                    <td><button class="inactive">Inactive</button></td>
+                </tr>
+            </table>
+        </div>
+
+          <div class="table__footer">
+            <p>Showing data 1 to 8 of  256K entries</p>
+            <button><</button>
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button>4</button>
+            <button>...</button>
+            <button>40</button>
+            <button>></button>
+          </div>
+      </div>
+    </div>  
+
+<!--Sidebar-->
+
+    <aside class="sidebar">
+      <div class="logo">
+        <img src="./img/setting.png" alt="">
+        <h4>Dashboard</h4>
+        <span>v.01</span>
+      </div>
+
+      <div class="sidebar__menu">
+        <button>
+          <div class="sidebar__menu__right">
+            <img src="./img/key-square.png" alt="">
+          <a href="">Dashboard</a>
+          </div>
+        </button>
+
+        <button>
+          <div class="sidebar__menu__right">
+            <img src="./img/3d-square.png" alt="">
+            <a href="">Product</a>
+          </div>
+          <div class="sidebar__menu__left">
+            <img src="./img/chevron-right.png" alt="">
+          </div>
+        </button>
+
+
+
+        <button>
+          <div class="sidebar__menu__right">
+            <img src="./img/user-square.png" alt="">
+            <a href="">Customers</a>
+          </div>
+          <div class="sidebar__menu__left">
+            <img src="./img/chevron-right.png" alt="">
+          </div>
+        </button>
+        
+        <button>
+          <div class="sidebar__menu__right">
+            <img src="./img/wallet-money.png" alt="">
+            <a href="">Income</a>
+          </div>
+          <div class="sidebar__menu__left">
+            <img src="./img/chevron-right.png" alt="">
+          </div>
+        </button>
+
+        <button>
+          <div class="sidebar__menu__right">
+            <img src="./img/discount-shape.png" alt="">
+            <a href="">Promote</a>
+          </div>
+          <div class="sidebar__menu__left">
+            <img src="./img/chevron-right.png" alt="">
+          </div>
+        </button>
+
+        <button>
+          <div class="sidebar__menu__right">
+            <img src="./img/message-question.png" alt="">
+            <a href="">Help</a>
+          </div>
+          <div class="sidebar__menu__left">
+            <img src="./img/chevron-right.png" alt="">
+          </div>
+        </button>
+      </div>
+      
+      <div class="sidebar__footer">
+        <img src="./img/photo.png" alt="">
+        <div class="sidebar__footer__h">
+          <h5>Evano</h5>
+          <h6>Project Manager</h6>
+        </div>
+      </div>
+    </aside>
+  </div>
+    
+  
+</body>
+</html>
